@@ -1,0 +1,312 @@
+/* Bootstrap datetimepicker */
+@import "datetimepicker/css/bootstrap-datetimepicker.css";
+
+/* Propeller datetimepicker */
+@import "datetimepicker/css/pmd-datetimepicker.css";
+
+body {
+	overflow-x: hidden;
+	overflow-y:hidden;
+	min-height: 100%;
+	min-width: 100%;
+}
+.md-avatar {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+.dropdown-toggle {
+    display: none;
+}
+.md-avatar.size-1 {
+  width: 20px;
+  height: 20px;
+}
+.md-avatar.size-2 {
+  width: 20px;
+  height: 20px;
+}
+.md-avatar.size-3 {
+  width: 20px;
+  height: 20px;
+}
+.md-avatar.size-4 {
+  width: 20px;
+  height: 20px;
+}
+
+.bg-light {
+    background-color: #428BCA;
+}
+
+
+input{
+	margin:none;
+	font-size: 95%;
+	
+}
+input{
+	height:95%;
+	width:95%;
+}
+label{
+	font-size:95%;
+}
+option{
+	font-size: 95%;
+}
+.m3 {
+	margin-bottom: 0rem;
+}
+
+.topbar {
+	-webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+	
+}
+.modal-lg {
+    max-width: 100% !important;
+}
+
+#tabs {
+	margin-top: 100px;
+}
+
+.nav-item:active {
+	border-style: outset;
+	outline: none;
+}
+.nav-item:disabled{
+	color:red;
+}
+.progressBar li.active {
+	color: blue;
+}
+
+.progressBar li.active:before {
+	border-color: blue;
+	background-color: blue
+}
+
+.progressBar li.active+li:after {
+	background-color: dodgerblue;
+}
+
+#icon {
+	margin-top: 20%;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+	left: 30px;
+	text-decoration: none;
+	font-weight: 400;
+	color: #044d70;
+	display: block;
+	transition: 0.3s;
+}
+
+#icon:hover {
+	color: #16adf5;
+}
+
+#icon1:hover {
+	color: #16adf5;
+}
+
+#icon2:hover {
+	color: #16adf5;
+}
+
+#icon1 {
+	margin-top: 35%;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+	text-decoration: none;
+	left: 30px;
+	color: #044d70;
+	font-weight: 400;
+	display: block;
+	transition: 0.3s;
+}
+
+#icon2 {
+	margin-top: 35%;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+	text-decoration: none;
+	left: 30px;
+	color: #044d70;
+	font-weight: 400;
+	display: block;
+	transition: 0.3s;
+}
+
+.stepwizard-step p {
+	margin-top: 10px;
+}
+
+.stepwizard-row {
+	display: table-row;
+}
+
+.stepwizard {
+	display: table;
+	width: 100%;
+	position: relative;
+	top: -60px;
+}
+
+.stepwizard-step button[disabled] {
+	opacity: 1 !important;
+	filter: alpha(opacity = 1 00) !important;
+}
+
+.stepwizard-row:before {
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background-color: #79857c;
+}
+
+.stepwizard-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.stepwizard-step {
+	display: table-cell;
+	text-align: center;
+}
+
+.btn-circle {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 1.428571429;
+	border-radius: 100px;
+	background-color: gray;
+}
+
+#page-content-wrapper {
+	min-width: 0;
+	width: 100%;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.wrapper {
+	display: flex;
+	align-items: stretch;
+}
+
+#sidebar {
+	min-width: 250px;
+	max-width: 250px;
+}
+
+#sidebar.active {
+	margin-left: -250px;
+}
+
+#sidebar {
+	min-width: 18%;
+	max-width: 18%;
+	min-height: 100vh;
+}
+
+a[data-toggle="collapse"] {
+	position: relative;
+}
+
+.dropdown-toggle::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+}
+
+@media ( max-width : 768px) {
+	#sidebar {
+		margin-left: -250px;
+	}
+	#sidebar.active {
+		margin-left: 0;
+	}
+}
+
+@import
+	"https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #fafafa;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: #999;
+}
+
+a, a:hover, a:focus {
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+#sidebar {
+	
+	background: #555c5e;
+	color: #99e6ff;
+	transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+	padding: 20px;
+	background: #555c5e;
+}
+
+#sidebar ul.components {
+	padding: 20px 0;
+	border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+	color: #fff;
+	padding: 10px;
+}
+
+#sidebar ul li a {
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#sidebar ul li a:hover {
+	color: #7386D5;
+	background: #555c5e;
+}
+
+#sidebar ul li.active>a, a[aria-expanded="true"] {
+	color: #fff;
+	background: #6d7fcc;
+}
+
+ul ul a {
+	font-size: 0.9em !important;
+	padding-left: 30px !important;
+	background: #6d7fcc;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Orderable Automation</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+ crossorigin="anonymous">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" th:href="@{/css/Login.css}" />
+</head>
+<body>
+	<div class="wrapper fadeInDown">
+		<div id="formContent">
+			<!-- Tabs Titles -->
+
+			<!-- Icon -->
+			<div class="fadeIn first">
+				<h2>Psych Experiment</h2>
+				<!-- <img th:src="@{/img/CernerLogo.png}" id="icon"
+					alt="User Icon" height="99px" /> -->
+			</div>
+
+			<!-- Login Form -->
+
+			<div>
+				<p style="color: red;" th:text="${error}"></p>
+				<form th:action="@{/startQuestionnaire}" method="post">
+					<input type="text" id="name" class="fadeIn second" name="name"
+						placeholder="Name">
+						 <input type="text"
+						id="mail" class="fadeIn third" name="mail"
+						placeholder="Email ID"> 
+						<input type="submit"
+						class="fadeIn fourth" value="Start">
+						
+				</form>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
