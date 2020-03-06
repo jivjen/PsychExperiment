@@ -52,5 +52,10 @@ public class ResponseController {
 		return "Questionnaire";
 	}
 	
+	@RequestMapping(value="/startPage")
+	public String firstPage()
+	{
+		return "HomePage";
+	}
 
 }
